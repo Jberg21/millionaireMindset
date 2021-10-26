@@ -78,7 +78,7 @@ li a:hover {
 }
 .image-container {
     position: relative;
-    background-image: url('../src/assets/images/medium.jpg');
+    background-image: url('../src/images/header.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -155,7 +155,7 @@ li a:hover {
 .about-image {
     height: 450px;
     width: 400px;
-    background-image: url(../src/assets/images/sillhouette1.jpg);
+    background-image: url(../src/images/Me1.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
@@ -194,7 +194,7 @@ li a:hover {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/assets/images/notetaker.png);
+    background-image: url(../src/images/Notetaker.png);
     background-size: cover;
     background-position:left;
 }
@@ -206,7 +206,7 @@ li a:hover {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/assets/images/hero-bg.jpg);
+    background-image: url(../src/images/runbuddy.png);
     background-size: cover;
     background-position:right;
 }
@@ -218,11 +218,11 @@ li a:hover {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/assets/images/taskinator.png);
+    background-image: url(../src/images/taskinator.png);
     background-size: cover;
     background-position:bottom;
 }
-.foodfest-project {
+.weather-project {
     width: 310px;
     height: 310px;
     background: #fff;
@@ -230,11 +230,11 @@ li a:hover {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/assets/images/food-table.jpg);
+    background-image: url(../src/images/weather.png);
     background-size: cover;
     background-position:bottom;
 }
-.budget-project {
+.hike-project {
     width: 310px;
     height: 310px;
     background: #fff;
@@ -242,11 +242,11 @@ li a:hover {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/assets/images/budget.png);
+    background-image: url(../src/images/myHike.png);
     background-size: cover;
     background-position:bottom;
 }
-.carbon-project {
+.offlineBeats-project {
     width: 310px;
     height: 310px;
     background: #fff;
@@ -254,7 +254,7 @@ li a:hover {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/assets/images/carbon.jpg);
+    background-image: url(../src/images/offlineBeats.png);
     background-size: cover;
     background-position:bottom;
 }
@@ -415,7 +415,7 @@ input[type=submit]:hover {
         box-shadow: -15px 7px 30px rgb(0 0 0 / 20%);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(../src/assets/images/hero-bg.jpg);
+        background-image: url(../src/images/runbuddy.png);
         background-size: cover;
         background-position: right;
     }
