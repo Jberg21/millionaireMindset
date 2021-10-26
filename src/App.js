@@ -1,24 +1,24 @@
 
-import Nav from './components/Nav';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import nav from './components/nav';
+import hero from './components/hero';
+import about from './components/about';
+import projects from './components/projects';
+import contact from './components/contact';
 
 // import './App.css';
 
-function App() {
+function app() {
   return (
    <div>
-     <Nav></Nav>
-     <Hero></Hero>
+     <nav></nav>
+     <hero></hero>
      <main>
-       <About></About>
-       <Projects></Projects>
-       <Contact></Contact>
+       <about></about>
+       <projects></projects>
+       <contact></contact>
      </main>
    </div>
   );
 }
 
-export default App;
+export default app;

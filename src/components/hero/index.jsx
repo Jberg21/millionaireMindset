@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Hero() {
+function hero() {
     return (
         <section id="hero">
         <div className="container">
@@ -18,4 +18,4 @@ function Hero() {
     )
 }
 
-export default Hero;
+export default hero;

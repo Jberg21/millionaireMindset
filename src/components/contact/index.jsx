@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Contact() {
+function contact() {
 
     return (
         <section id="contactme">
@@ -37,13 +37,13 @@ function Contact() {
 
 
                 <div className="contact-icons">
-                    <div className="email"><a href="mailto:kelleymarne@gmail.com" target="_blank">Email</a></div>
-                    <div className="github"><a href="https://github.com/kelleymarne" target="_blank">Github</a></div>
-                    <div className="linkedin"><a href="https://www.linkedin.com/in/kelley-worthington-8347a7203/" target="_blank">Linkedin</a></div>
+                    <div className="email"><a href="" target="_blank">Email</a></div>
+                    <div className="github"><a href="" target="_blank">Github</a></div>
+                    <div className="linkedin"><a href="" target="_blank">Linkedin</a></div>
                 </div>
             </div>
         </section>
     )
 }
 
-export default Contact;
+export default contact;

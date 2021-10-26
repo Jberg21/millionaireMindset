@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function About () {
+function about () {
 
     return(
         <section id="aboutme">
@@ -20,4 +20,4 @@ function About () {
     )
 }
 
-export default About;
+export default about;
