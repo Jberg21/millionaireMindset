@@ -1,54 +1,49 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
-@import 'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap';
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 html {
-    font-family: 'Manrope', sans-serif;
+    font-family: helvetica, sans-serif;
 }
 a {
     text-decoration: none;
 }
 :root {
-    --light-green: rgb(139, 209, 139);
-    --mid-green: #234416;
-    --dark-green: rgb(4, 32, 4);
+    --light-blue: #6189b8;
+    --mid-blue: #1b4f8b;
+    --dark-blue: #043b7a;
 }
-
+/*-----------------*/
 /* NAV BAR SECTION */
+/*-----------------*/
+
+.links{
+    align-content: center;
+}
+    
+
 .nav-bar {
     position: absolute;
     z-index: 2;
     width: 100%;
+    align-content: flex-end;
 }
 ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 10%;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    /* padding: 0 10%; */
+    padding-left: 60vw;
     list-style: none;
-    height: 10vh;
-    background-color: rgba(100, 100, 100, 0.2);
+    height: 8vh;
+    background-color: rgba(100, 100, 100, 0.466);
 }
 li a {
     display: block;
     color: white;
+    align-content: flex-end;
     text-decoration: none;
     font-size: 1.5rem;
     transition: .5s ease-in-out;
@@ -59,7 +54,7 @@ li a:hover {
 }
     
 #name {
-    color: var(--mid-green);
+    color: var(--mid-blue);
     font-size: 30px;
     font-weight: bold;
     text-shadow: 1px 1px 30px white;
@@ -68,7 +63,9 @@ li a:hover {
     text-decoration: none;
 }
 
-/* HERO SECTION */
+/*-----------------*/
+/*--HERO SECTION--*/
+/*-----------------*/
 
 .container {
     position: relative;
@@ -84,12 +81,12 @@ li a:hover {
     height: 100%;
     width: 100%;
     margin-top: 0vh;
-    animation: scale 28s;
+    animation: scale 41s;
     animation-iteration-count: infinite;
 }
 @keyframes scale {
     0% {
-        transform: scale(1.5);
+        transform: scale(1.25);
     }
     50% {
         transform: scale(1);
@@ -120,31 +117,26 @@ li a:hover {
     color: #fff;
     text-transform: uppercase;
     z-index: 2;
+    text-shadow: -0px 4px 6px rgba(0, 0, 0, 1)
+
 }
 .keyWord {
-    color: var(--mid-green);
-}
-.resume {
-    border: 2px solid var(--mid-green);
-    width: 175px;
-    padding: 30px;
-    margin-top: 20px;
-    transition: .5s ease-in-out;
-}
-.resume-text {
-    color: #fff;
-}
-.resume:hover {
-    background-color: rgba(100, 100, 100, 0.4);
+    color: var(--mid-blue);
+    align-content: center;
 }
 
-/* ABOUT ME */
+
+/*-----------------*/
+/*--- ABOUT ME ---*/
+/*-----------------*/
+
 .about-container {
     margin: 10%;
     width: 80%;
     height: auto;
     background-color: #f8f8f8;
-    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; 
 }
 .about-section {
     display: flex;
@@ -158,19 +150,41 @@ li a:hover {
     background-image: url(../src/images/Me1.jpg);
     background-size: cover;
     background-position: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .about-text {
     height: auto;
-    width: 40%;
     font-size: 1.5rem;
-    margin: 100px;
+    margin: 60px;
+}
+.resume {
+    background-color: rgba(100, 100, 100, 0.4);
+    width: 150px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: .5s ease-in-out;
+    border-radius: 15px 15px;
+    
+}
+.resume-text {
+    color: var(--dark-blue);
+    font-size: 3vh;
+    justify-content: center;
+}
+.resume:hover {
+    background-color: var(--light-blue);
 }
 
+/*-----------------*/
 /* PROJECT SECTION */
+/*-----------------*/
+
+
 .project-container {
     width: 100%;
     height: auto;
+
+
 
 }
 .title-header {
@@ -179,84 +193,86 @@ li a:hover {
     align-items: center;
     justify-content: center;
     margin: 20px;
+    padding-top: 10px;
 }
 .projects {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: wrap;
+    
 }
 .notetaker-project {
-    width: 310px;
-    height: 310px;
+    width: 500px;
+    height: 400px;
     background: #fff;
     position: relative;
-    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
     background-image: url(../src/images/Notetaker.png);
     background-size: cover;
-    background-position:left;
+    background-position: left;
 }
 .runbuddy-project {
-    width: 310px;
-    height: 310px;
+    width: 500px;
+    height: 400px;
     background: #fff;
     position: relative;
-    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
     background-image: url(../src/images/runbuddy.png);
     background-size: cover;
-    background-position:right;
+    background-position: right;
 }
 .taskinator-project {
-    width: 310px;
-    height: 310px;
+    width: 500px;
+    height: 400px;
     background: #fff;
     position: relative;
-    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
     background-image: url(../src/images/taskinator.png);
     background-size: cover;
-    background-position:bottom;
+    background-position:left;
 }
 .weather-project {
-    width: 310px;
-    height: 310px;
+    width: 500px;
+    height: 400px;
     background: #fff;
     position: relative;
-    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
     background-image: url(../src/images/weather.png);
     background-size: cover;
-    background-position:bottom;
+    background-position:center;
 }
-.hike-project {
-    width: 310px;
-    height: 310px;
+.stickle-project {
+    width: 500px;
+    height: 400px;
     background: #fff;
     position: relative;
-    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/myHike.png);
+    background-image: url(../src/images/sticklebricks.png);
     background-size: cover;
-    background-position:bottom;
+    background-position:left;
 }
 .offlineBeats-project {
-    width: 310px;
-    height: 310px;
+    width: 500px;
+    height: 400px;
     background: #fff;
     position: relative;
-    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
     background-image: url(../src/images/offlineBeats.png);
     background-size: cover;
-    background-position:bottom;
+    background-position:center;
 }
 .text-container {
     position: absolute;
@@ -267,24 +283,27 @@ li a:hover {
     bottom: 0;
     background-color: #fff;
     overflow: hidden;
+    border-radius: 10px;
+    
 }
 .text-container:hover {
     height: 290px;
     transition: all 1s ease-in-out;
 }
 .name {
+    padding: 15px 0 15px 15px;
     margin-top: 10px;
     margin-left: 6px;
-    color: var(--dark-green);
-    font-size: 2rem;
+    color: var(--dark-blue);
+    font-size: 5 rem;
 }
 .content {
-    padding: 25px 0 25px 6px;
-    color: var(--mid-green);
+    padding: 15px 0 20px 15px;
+    color: var(--mid-blue);
 }
 .button {
     width: 150px;
-    margin-left: 5px;
+    margin-left: 50px;
     transition: .5s ease-in-out;
     border: none;
     border-radius: 10px;
@@ -294,18 +313,20 @@ li a:hover {
 
 }
 .button h3 {
-    color: var(--dark-green);
+    color: var(--dark-blue);
     font-weight:lighter;
     margin: 2px;
 }
 .button:hover {
-    background-color:rgb(139, 168, 120);
-    border: 2px solid var(--mid-green);
+    background-color:var(--light-blue);
+    border: 2px solid var(--dark-blue);
     border-radius: 10px;
 
 }
 
+/*-----------------*/
 /* Contact Me */
+/*-----------------*/
 
 .contact-icons {
     display: flex;
@@ -316,31 +337,29 @@ li a:hover {
     margin: 5% 35%;
 }
 .contact-icons a {
-    color: var(--mid-green);
+    color: var(--mid-blue);
 
 }
 .contact-icons a:hover {
-    background:rgba(200, 241, 200, 0.712);
+    background:var(--light-blue);
     padding: 10px;
     border-radius: 25px;
     box-shadow: 2px 2px 20px rgba(199, 196, 188, 0.781);
 }
 
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: var(--light-green);
+  background-color: var(--light-blue);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -348,20 +367,23 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
-  background-color: var(--mid-green);
+  background-color: var(--mid-blue);
 }
 
-/* Add a background color and some padding around the form */
 .form-container {
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #f2f2f200;
   padding: 20px;
   width: 50vw;
   margin: auto;
 }
+
+/*-----------------*/
 /* Media Query */
+/*-----------------*/
+
 
 @media (max-width: 760px) {
 
@@ -382,7 +404,7 @@ input[type=submit]:hover {
         font-size: .75rem;
     }
     #name {
-        color: var(--mid-green);
+        color: var(--mid-blue);
         font-size: 17px;
         font-weight: bold;
         text-shadow: 1px 1px 30px white;
@@ -397,7 +419,7 @@ input[type=submit]:hover {
     .about-image {
         height: 450px;
         width: 300px;
-        background-image: url(../src/assets/images/sillhouette1.jpg);
+        background-image: url(../src/images/Me1.jpg);
         background-size: cover;
         background-position: center;
         margin-bottom: 20px;
@@ -406,9 +428,10 @@ input[type=submit]:hover {
         height: auto;
         font-size: 1.5rem;
         margin: 20px;
+        padding: 20px 20px 20px 20px ;
     }
     .runbuddy-project {
-        width: 300px;
+        width: 500px;
         height: 300px;
         background: #fff;
         position: relative;
@@ -429,7 +452,7 @@ input[type=submit]:hover {
         /* margin: 5% 35%; */
     }
     .contact-icons a{
-        color: var(--mid-green);
+        color: var(--mid-blue);
         padding: 10px;
 
     }

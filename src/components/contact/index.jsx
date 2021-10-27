@@ -1,21 +1,12 @@
 import React from 'react';
 
 
-function contact() {
+function Contact() {
 
     return (
         <section id="contactme">
             <div className="contact-container">
                 <div className="title-header">Contact Me</div>
-
-                {/* <div className="mb-3">
-                    <label for="exampleFormControlInput1" className="form-label">Email address</label>
-                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
-                </div>
-                <div className="mb-3">
-                    <label for="exampleFormControlTextarea1" className="form-label">Example textarea</label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div> */}
 
 <div class="form-container">
     <form id="contact-form">
@@ -24,11 +15,11 @@ function contact() {
       <input type="text" name="name" />
   
       <label for="email">Email</label>
-      <input type="text" name="email" placeholder="Email@example.com" />
+      <input type="text" name="email" placeholder="email@email.com" />
 
   
       <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Reach Out!"></textarea>
+      <textarea id="subject" name="subject" placeholder="How can I help?"></textarea>
   
       <input type="submit" value="Submit" />
   
@@ -37,13 +28,13 @@ function contact() {
 
 
                 <div className="contact-icons">
-                    <div className="email"><a href="" target="_blank">Email</a></div>
-                    <div className="github"><a href="" target="_blank">Github</a></div>
-                    <div className="linkedin"><a href="" target="_blank">Linkedin</a></div>
+                    <div className="email"><a href="mailto:justinaberg21@gmail.com">Email</a></div>
+                    <div className="github"><a href="https://github.com/Jberg21">Github</a></div>
+                    <div className="linkedin"><a href="https://www.linkedin.com/in/justin-berg-31109899/">Linkedin</a></div>
                 </div>
             </div>
         </section>
     )
 }
 
-export default contact;
+export default Contact;
