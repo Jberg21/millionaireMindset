@@ -9,7 +9,7 @@ function Hero() {
         </div>
         <div className="hero-text">
             <h1>
-                <span className="keyWord">Justin Berg</span><br />Frontend Developer <br /><span className="keyWord">Project Manager</span>
+                <span className="keyWord">Learn How to Become a Millionaire as a Realtor</span><br /><br /><span className="keyWord"></span>
             </h1>
             
         </div>

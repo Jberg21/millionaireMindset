@@ -10,9 +10,9 @@ a {
     text-decoration: none;
 }
 :root {
-    --light-blue: #6189b8;
-    --mid-blue: #1b4f8b;
-    --dark-blue: #043b7a;
+    --light-blue: #61b87b;
+    --mid-blue: #fdfeff;
+    --dark-blue: #047a04;
 }
 /*-----------------*/
 /* NAV BAR SECTION */
@@ -75,7 +75,7 @@ li a:hover {
 }
 .image-container {
     position: relative;
-    background-image: url('../src/images/header.jpg');
+    background-image: url('../src/images/Money.jpeg');
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -147,7 +147,7 @@ li a:hover {
 .about-image {
     height: 450px;
     width: 400px;
-    background-image: url(../src/images/Me1.jpg);
+    background-image: url(../src/images/Coaching.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
@@ -157,15 +157,7 @@ li a:hover {
     font-size: 1.5rem;
     margin: 60px;
 }
-.resume {
-    background-color: rgba(100, 100, 100, 0.4);
-    width: 150px;
-    padding: 20px;
-    margin-bottom: 30px;
-    transition: .5s ease-in-out;
-    border-radius: 15px 15px;
-    
-}
+
 .resume-text {
     color: var(--dark-blue);
     font-size: 3vh;
@@ -202,7 +194,7 @@ li a:hover {
     flex-flow: wrap;
     
 }
-.notetaker-project {
+.lending {
     width: 500px;
     height: 400px;
     background: #fff;
@@ -210,11 +202,11 @@ li a:hover {
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/Notetaker.png);
+    background-image: url(../src/images/lending.jpg);
     background-size: cover;
     background-position: left;
 }
-.runbuddy-project {
+.coaching {
     width: 500px;
     height: 400px;
     background: #fff;
@@ -222,7 +214,7 @@ li a:hover {
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/runbuddy.png);
+    background-image: url(../src/images/Coaching.jpg);
     background-size: cover;
     background-position: right;
 }
@@ -234,7 +226,7 @@ li a:hover {
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/taskinator.png);
+    /* background-image: url(../src/images/taskinator.png); */
     background-size: cover;
     background-position:left;
 }
@@ -246,7 +238,7 @@ li a:hover {
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/weather.png);
+    /* background-image: url(../src/images/weather.png); */
     background-size: cover;
     background-position:center;
 }
@@ -258,11 +250,11 @@ li a:hover {
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/sticklebricks.png);
+    /* background-image: url(../src/images/sticklebricks.png); */
     background-size: cover;
     background-position:left;
 }
-.offlineBeats-project {
+.mindset {
     width: 500px;
     height: 400px;
     background: #fff;
@@ -270,7 +262,7 @@ li a:hover {
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/offlineBeats.png);
+    background-image: url(../src/images/mindset.jpg);
     background-size: cover;
     background-position:center;
 }
@@ -419,7 +411,7 @@ input[type=submit]:hover {
     .about-image {
         height: 450px;
         width: 300px;
-        background-image: url(../src/images/Me1.jpg);
+        /* background-image: url(../src/images/Me1.jpg); */
         background-size: cover;
         background-position: center;
         margin-bottom: 20px;
@@ -438,7 +430,7 @@ input[type=submit]:hover {
         box-shadow: -15px 7px 30px rgb(0 0 0 / 20%);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(../src/images/runbuddy.png);
+        /* background-image: url(../src/images/runbuddy.png); */
         background-size: cover;
         background-position: right;
     }

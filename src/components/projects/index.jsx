@@ -5,27 +5,27 @@ function Projects() {
     return (
         <section id="projects">
             <div className="project-container">
-                <div className="title-header">My Work</div>
+                <div className="title-header">Our Services</div>
                 <div className="projects">
 
                     {/* PROJECT 1 */}
                     <div className="project-item">
-                        <div className="runbuddy-project">
+                        <div className="coaching">
                             <div className="text-container">
-                                <h2 className="name">Run Buddy</h2>
+                                <h2 className="name">Coaching</h2>
                                 <div className="content">
                                     <p>
-                                        Run Buddy was our first website. This took our growing knowlege over weeks of our module work.
+                                        Awesome coaching description.
                                     </p>
                                 </div>
                                 <button className="button">
-                                    <a target="blank" href="https://jberg21.github.io/RunBuddy/">
-                                        <h3>View Project</h3>
+                                    <a target="blank" href="">
+                                        <h3>View Course Info</h3>
                                     </a>
                                 </button>
                                 <button className="button">
-                                    <a target="blank" href="https://github.com/Jberg21/RunBuddy">
-                                        <h3>View Repo</h3>
+                                    <a target="blank" href="">
+                                        <h3>Login</h3>
                                     </a>
                                 </button>
                             </div>
@@ -34,22 +34,22 @@ function Projects() {
 
                     {/* PROJECT 2 */}
                     <div className="project-item">
-                        <div className="notetaker-project">
+                        <div className="lending">
                             <div className="text-container">
-                                <h2 className="name">Notetaker</h2>
+                                <h2 className="name">Lending</h2>
                                 <div className="content">
                                     <p>
-                                        Notetaker app uses Express JS that allows you to take a note and store it to access later. 
+                                        Connect with an Elite Lender. 
                                     </p>
                                 </div>
                                 <button className="button">
-                                    <a target="blank" href="https://jberg21.github.io/Note-Taker-2/">
-                                        <h3>View Project</h3>
+                                    <a target="blank" href="">
+                                        <h3>Lenders</h3>
                                     </a>
                                 </button>
                                 <button className="button">
-                                    <a target="blank" href="https://github.com/Jberg21/Note-Taker-2">
-                                        <h3>View Repo</h3>
+                                    <a target="blank" href="">
+                                        <h3>Home Page</h3>
                                     </a>
                                 </button>
                             </div>
@@ -58,22 +58,22 @@ function Projects() {
 
                     {/* PROJECT 3 */}
                     <div className="project-item">
-                        <div className="offlineBeats-project">
+                        <div className="mindset">
                             <div className="text-container">
-                                <h2 className="name">Offline Beats</h2>
+                                <h2 className="name">Mindset</h2>
                                 <div className="content">
                                     <p>
-                                    This spotify library app is an online tool to help your music stay offline. 
+                                    16 Key principles 
                                     </p>
                                 </div>
                                 <button className="button">
-                                    <a target="blank" href="https://offline-library.herokuapp.com">
-                                        <h3>View Project</h3>
+                                    <a target="blank" href="">
+                                        <h3>Principles</h3>
                                     </a>
                                 </button>
                                 <button className="button">
-                                    <a target="blank" href="https://github.com/anthonypena97/spotify-library">
-                                        <h3>View Repo</h3>
+                                    <a target="blank" href="">
+                                        <h3>Resources</h3>
                                     </a>
                                 </button>
                             </div>
@@ -81,7 +81,7 @@ function Projects() {
                     </div>
 
                     {/* PROJECT 4 */}
-                    <div className="project-item">
+                    {/* <div className="project-item">
                         <div className="weather-project">
                             <div className="text-container">
                                 <h2 className="name">Weather Dashboard</h2>
@@ -102,10 +102,10 @@ function Projects() {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* PROJECT 5 */}
-                    <div className="project-item">
+                    {/* <div className="project-item">
                         <div className="stickle-project">
                             <div className="text-container">
                                 <h2 className="name">Stickle Bricks</h2>
@@ -126,10 +126,10 @@ function Projects() {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* PROJECT 6 */}
-                    <div className="project-item">
+                    {/* <div className="project-item">
                         <div className="taskinator-project">
                             <div className="text-container">
                                 <h2 className="name">Taskinator</h2>
@@ -150,7 +150,7 @@ function Projects() {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
