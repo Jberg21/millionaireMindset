@@ -6,7 +6,7 @@ function Contact() {
     return (
         <section id="contactme">
             <div className="contact-container">
-                <div className="title-header">Contact Us</div>
+                <div className="title-header">Sign Up</div>
 
 <div class="form-container">
     <form id="contact-form">
@@ -16,6 +16,9 @@ function Contact() {
   
       <label for="email">Email</label>
       <input type="text" name="email" placeholder="email@email.com" />
+
+      <label for="refer">Referred by</label>
+      <input type="text" name="name" placeholder="John Smith" />
 
   
       <label for="subject">Questions</label>
