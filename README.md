@@ -13,21 +13,10 @@
 
 ## Description
 
-> Challenge #20 React Portfolio
+
 
 ## Introduction 
-The challenge from week 20 was to re-create our porfolio using React.JS
 
----
-
-## Challenges
-
-Getting all my spacing right to fit my vision is something that I feel like I fought with for hours.
-
----
-## Victories
-
-JSX and React have become some of my favorite things to use. I took the skills that I learned from our group project was really able to apply them to this assignment.  
 
 
 ---

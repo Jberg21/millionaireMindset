@@ -15,17 +15,12 @@ function Projects() {
                                 <h2 className="name">Coaching</h2>
                                 <div className="content">
                                     <p>
-                                        Awesome coaching description.
+                                    Get a Certified Millionaire Mindset Coach that will help you take your business to higher levels. 100% Free.
                                     </p>
                                 </div>
                                 <button className="button">
                                     <a target="blank" href="">
-                                        <h3>View Course Info</h3>
-                                    </a>
-                                </button>
-                                <button className="button">
-                                    <a target="blank" href="">
-                                        <h3>Login</h3>
+                                        <h3>Details</h3>
                                     </a>
                                 </button>
                             </div>
@@ -36,22 +31,18 @@ function Projects() {
                     <div className="project-item">
                         <div className="lending">
                             <div className="text-container">
-                                <h2 className="name">Lending</h2>
+                                <h2 className="name">The Millionaire Formula</h2>
                                 <div className="content">
                                     <p>
-                                        Connect with an Elite Lender. 
+                                    Every day, 1,700 households in the US become millionaires. Why not you? We will teach you the millionaire formula and help you get on track so one day, you too can become a millionaire! 100% Free. 
                                     </p>
                                 </div>
                                 <button className="button">
                                     <a target="blank" href="">
-                                        <h3>Lenders</h3>
+                                        <h3>Sign Up Today</h3>
                                     </a>
                                 </button>
-                                <button className="button">
-                                    <a target="blank" href="">
-                                        <h3>Home Page</h3>
-                                    </a>
-                                </button>
+                                
                             </div>
                         </div>
                     </div>
@@ -60,49 +51,40 @@ function Projects() {
                     <div className="project-item">
                         <div className="mindset">
                             <div className="text-container">
-                                <h2 className="name">Mindset</h2>
+                                <h2 className="name">Continuous On-Going Training</h2>
                                 <div className="content">
                                     <p>
-                                    16 Key principles 
+                                    Let's face it, showing up to a training once doesn't make you an instant millionaire. It takes consistent on going training and learning with applying the principles learned to get to the top. 
                                     </p>
                                 </div>
                                 <button className="button">
                                     <a target="blank" href="">
-                                        <h3>Principles</h3>
+                                        <h3>Sign Up Today</h3>
                                     </a>
                                 </button>
-                                <button className="button">
-                                    <a target="blank" href="">
-                                        <h3>Resources</h3>
-                                    </a>
-                                </button>
+                                
                             </div>
                         </div>
                     </div>
 
                     {/* PROJECT 4 */}
-                    {/* <div className="project-item">
-                        <div className="weather-project">
+                    <div className="project-item">
+                        <div className="bestpart">
                             <div className="text-container">
-                                <h2 className="name">Weather Dashboard</h2>
+                                <h2 className="name">Best Part- 100% FREE</h2>
                                 <div className="content">
                                     <p>
-                                    We had to creat a weather dashboard using a server side API. This will allow users to enter in a city name and show the current weather for that city as well as the 5 day forecast.
+                                    For licensed Real Estate Agents in CA, CO, OR, UT, and ID- this is 100% FREE. NO COST
                                     </p>
                                 </div>
                                 <button className="button">
-                                    <a target="blank" href="https://jberg21.github.io/Weather-Dashboard/">
-                                        <h3>View Project</h3>
-                                    </a>
-                                </button>
-                                <button className="button">
-                                    <a target="blank" href="https://github.com/Jberg21/Weather-Dashboard">
-                                        <h3>View Repo</h3>
+                                    <a target="blank" href="">
+                                        <h3>Sign Up</h3>
                                     </a>
                                 </button>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                     {/* PROJECT 5 */}
                     {/* <div className="project-item">
