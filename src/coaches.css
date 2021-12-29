@@ -5,6 +5,7 @@
 .coaches-container {
     width: 100%;
     height: auto;
+    padding-top: 75px;
 }
 .coaches-title-header {
     font-size: 4rem;
@@ -242,12 +243,12 @@
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
 }
 .button-coaches:hover {
-    background-color:var(--light-blue);
-    border: 2px solid var(--dark-blue);
+    background-color:var(--light-green);
+    border: 2px solid var(--dark-green);
     border-radius: 10px;
 }
 .button-coaches h3 {
-    color: var(--dark-blue);
+    color: var(--dark-green);
     font-weight: bold;
     margin: 5px;
     text-align: center;

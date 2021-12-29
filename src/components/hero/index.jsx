@@ -1,4 +1,5 @@
 import React from 'react';
+import Signup from '../signup';
 
 function Hero() {
     return (
@@ -11,10 +12,10 @@ function Hero() {
             </div>
             <div className="hero-text">
                 <h1>
-                    <span className="keyWord">Millionaire Mindset</span><br />for REAL ESTATE AGENTS<br /><span className="keyWord"></span>
+                    <span className="keyWord"></span><br />Our Mission: <br /><br />“To help Real Estate Agents become<br />Multi-Millionaires Selling and Investing<br />in Real Estate."<br /><span className="keyWord"></span>
                 </h1>
                 <button className="buttonhero">
-                    <a target="blank" href="">
+                    <a href="/signup" >
                         <h3>Sign Up Today</h3>
                     </a>
                 </button>

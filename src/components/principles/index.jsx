@@ -6,7 +6,7 @@ function Principles() {
     return (
         <section id="aboutme">
             <div className="about-container">
-                <div className="title-header">OUR 16 CORE PRINCIPLES</div>
+                <div className="title-header">Our 16 Core Principles</div>
                 <div className="about-section">
                     <div className="img-container">
                         <div className=""></div>
@@ -17,36 +17,35 @@ function Principles() {
                             <h1>Principle #1:</h1>
                             <h2> 1,700 Millionaires Are Made Each Day in the US- WHY NOT YOU???</h2>
                             <br />If 1,700 other people can do it every single day- why can't you? Every journey starts with that first step. Your first step is to sign up for this program- at absolutely no cost to you.
-                            <br /><br />There are hundreds of jobs out there that will never allow you to become a millionaire- they just don't pay enough and there is not enough hours in the day. But one of the best things about being a real estate agent? You are in a field that offers unlimited income potential and if you do the right things consistently- one day you can become one of the 1,700 new daily millionaires!
-                        </div>
+                            <br /><br />There are hundreds of jobs out there that will never allow you to become a millionaire- they just don't pay enough and there is not enough hours in the day. But one of the best things about being a real estate agent? You are in a field that offers unlimited income potential and if you do the right things consistently- one day you can become one of the 1,700 new daily millionaires!                        </div>
                     </div>
-                    <div className="aboutstep1"></div>
-                    <div className="aboutstep1"></div>
+                    <div className="principle1"></div>
+                    <div className="principle2"></div>
                     <div className="about-container-a">
                         <div className="about-steps">
                             <h1>Principle #2:</h1>
                             <h2>It All Starts With Mindset</h2><br />
                             <h3a>What the mind can Conceive and believe, it can achieve. (the 4 min mile)</h3a>
                             <li>Control your Self Talk – How would you talk to your kids or friends? Be your own cheerleader, not your own worst critic.</li>
-                            <li>Get outside your Comfort Zone – Stretch yourself!</li>
+                            <li>Get outside your Comfort Zone – Stretch yourself</li>
                             <li>Lose the Excuses – Only the unsuccessful use excuses. You can make excuses or money, but not both.</li>
-                            <li>Your Mind is Wired to Keep you Safe – Not Successful, you have to step up and  override the system.</li>
+                            <li>Your Mind is Wired to Keep you Safe – Not Successful, you have to step up and override the system.</li>
                             <li>Understand the J-Curve and Resilience/Grit</li>
                             <li>Empowering vs Disempowering Mindsets</li>
                             <li>Two Pains in Life</li>
                             <li>We are the Ultimate Adaptation Machines</li>
-                            <li>Watch  your Words</li>
+                            <li>Watch your Words</li>
                         </div>
                     </div>
                     <div className="about-container-a">
                         <div className="about-steps">
                             <h1>Principle #3:</h1>
                             <h2>Know Your Why</h2>
-                            <br />Build Internal Drive and Pasion to fuel your energy.
+                            <br />Build Internal Drive and Passion to fuel your energy.
                         </div>
                     </div>
-                    <div className="aboutstep1"></div>
-                    <div className="aboutstep1"></div>
+                    <div className="principle3"></div>
+                    <div className="principle4"></div>
                     <div className="about-container-a">
                         <div className="about-steps">
                             <h1>Principle #4:</h1>
@@ -58,11 +57,11 @@ function Principles() {
                         <div className="about-steps">
                             <h1>Principle #5:</h1>
                             <h2>Modeling</h2>
-                            <br /> Look at someone who is already successful in an area of life and learn from the things they have done. No need to reinvent the wheel. To become a 1 percenter – you must first act like one.
+                            <br />Look at someone who is already successful in an area of life and learn from the things they have done. No need to reinvent the wheel. To become a 1 percenter – you must first act like one.											
                         </div>
                     </div>
-                    <div className="aboutstep1"></div>
-                    <div className="aboutstep1"></div>
+                    <div className="principle5"></div>
+                    <div className="principle6"></div>
                     <div className="about-container-a">
                         <div className="about-steps">
                             <h1>Principle #6:</h1>
@@ -79,13 +78,13 @@ function Principles() {
                             <br />Or your days will manage you... Proper Planning and Your Power Hour are utmost critical.
                         </div>
                     </div>
-                    <div className="aboutstep1"></div>
-                    <div className="aboutstep1"></div>
+                    <div className="principle7"></div>
+                    <div className="principle8"></div>
                     <div className="about-container-a">
                         <div className="about-steps">
                             <h1>Principle #8:</h1>
                             <h2>Manage Your Distractions</h2>
-                            <br />Sometimes it's more important what you say "NO" to. - Steve Jobs
+                            <br /><i>Sometimes it's more important what you say "NO" to. - Steve Jobs</i>
                             <br />
                             <br />Evaluate yourself. Where are you losing time and energy? What things are you spending time on daily, weekly, and monthly that is not taking you toward your goal and how do you reduce or eliminate this wasted time?
                         </div>
@@ -94,11 +93,11 @@ function Principles() {
                         <div className="about-steps">
                             <h1>Principle #9:</h1>
                             <h2>Consistency</h2>
-                            <br />One day of reps at the gym will not build muscles, neither will one day a month... Only with daily, consistent, discipline will new habits form, and success will build.
+                            <br />One day of reps at the gym will not build muscles, neither will one day each month... Only with daily, consistent, discipline will new habits form, and success will build.
                         </div>
                     </div>
-                    <div className="aboutstep1"></div>
-                    <div className="aboutstep1"></div>
+                    <div className="principle9"></div>
+                    <div className="principle10"></div>
                     <div className="about-container-a">
                         <div className="about-steps">
                             <h1>Principle #10:</h1>
@@ -111,12 +110,12 @@ function Principles() {
                             <h1>Principle #11:</h1>
                             <h2>Don't You Quit</h2>
                             <br />- You don't fail until you quit.
-                            <br />- You don't fail when you get knocked down. You fail when you don't get back up. - Muhammed Ali
+                            <br />- <i>You don't fail when you get knocked down. You fail when you don't get back up. - Muhammed Ali</i>
                             <br />- Fall down 7 times. Get back up 8 times.
                         </div>
                     </div>
-                    <div className="aboutstep1"></div>
-                    <div className="aboutstep1"></div>
+                    <div className="principle11"></div>
+                    <div className="principle12"></div>
                     <div className="about-container-a">
                         <div className="about-steps">
                             <h1>Principle #12:</h1>
@@ -130,11 +129,11 @@ function Principles() {
                         <div className="about-steps">
                             <h1>Principle #13:</h1>
                             <h2>Get Attention</h2>
-                            <br />NAR did a survey several years back and found that 70% of home buyers and sellers went with the first Realtor they spoke with. What does this tell us? If you're not first, you're last. What are you going to do so when someone is thinking about buying or selling- you are their first phone call? Make sure you attend Master Class #2: How to Make $250,000 Plus as a Real Estate Agent and we will go over all of this.
-                        </div>
+                            <br />NAR did a survey several years back and found that 70-75% of home buyers and sellers went with the first Realtor they spoke with. What does this tell us? If you're not first, you're last. What are you going to do so when someone is thinking about buying or selling- you are their first phone call? Make sure you attend Master Class #2: How to Make $250,000 Plus as a Real Estate Agent and we will go over all of this.																				
+						</div>
                     </div>
-                    <div className="aboutstep1"></div>
-                    <div className="aboutstep1"></div>
+                    <div className="principle13"></div>
+                    <div className="principle14"></div>
                     <div className="about-container-a">
                         <div className="about-steps">
                             <h1>Principle #14:</h1>
@@ -146,17 +145,16 @@ function Principles() {
                         <div className="about-steps">
                             <h1>Principle #15:</h1>
                             <h2>Know and Follow Your Systems!</h2>
-                            <br /> ???
                         </div>
                     </div>
-                    <div className="aboutstep1"></div>
-                    <div className="aboutstep1"></div>
+                    <div className="principle15"></div>
+                    <div className="principle16"></div>
                     <div className="about-container-a">
                         <div className="about-steps">
                             <h1>Principle #16:</h1>
                             <h2>Massive Focused Action- 10x Your Results!</h2>
-                            <br />• “The 10X Rule says that 1) you should set targets for yourself that are 10X greater than what you believe you can achieve and 2) you should take actions that are 10X greater than what you believe are necessary to achieve your goals. The biggest mistake most people make in life is not setting goals high enough. – Grant Cardone
-                            <br />• Tony Robbins: Massive Action is the Cure-All
+                            <br />• <i>“The 10X Rule says that 1) you should set targets for yourself that are 10X greater than what you believe you can achieve and 2) you should take actions that are 10X greater than what you believe are necessary to achieve your goals. The biggest mistake most people make in life is not setting goals high enough. – Grant Cardone</i>
+                            <br />• <i>Tony Robbins: Massive Action is the Cure-All</i>
                         </div>
                     </div>
                 </div>

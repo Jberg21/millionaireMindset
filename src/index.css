@@ -10,9 +10,11 @@ a {
     text-decoration: none;
 }
 :root {
-    --light-blue: #61b87b;
-    --mid-blue: #fdfeff;
-    --dark-blue: #047a04;
+    --mid-green: #FFFFFF;
+    --light-green: #57BD84;
+    --dark-green: #206343;
+    --gold: #c39c30;
+    --black: #000000
 }
 /*-----------------*/
 /* NAV BAR SECTION */
@@ -24,12 +26,11 @@ a {
 }
     
 .nav-bar {
-    position: absolute;
+    position: fixed;
     z-index: 2;
     width: 100%;
     align-content: flex-end;
-    
-    
+    top: 0;
 }
 
 ul {
@@ -40,9 +41,8 @@ ul {
     /* padding: 0 10%; */
     padding-left: 5vw;
     list-style: none;
-    height: 8vh;
-    background-color: rgba(100, 100, 100, 0.466);
-    
+    height: 15vh;
+    background-color: rgba(100, 100, 100, 0.466); 
 }
 
 li a {
@@ -50,9 +50,8 @@ li a {
     color: white;
     align-content: flex-end;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 130%;
     transition: .5s ease-in-out;
-
 }
 
 li a:hover {
@@ -60,7 +59,7 @@ li a:hover {
 }
     
 #name {
-    color: var(--mid-blue);
+    color: var(--mid-green);
     font-size: 30px;
     font-weight: bold;
     text-shadow: 1px 1px 30px white;
@@ -108,7 +107,7 @@ li a:hover {
         transform: scale(1.25);
     }
 }
-.overlay {
+/* .overlay {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -116,7 +115,7 @@ li a:hover {
     left: 0;
     background: rgba(0, 0, 0, 0.2);
     z-index: 1;
-}
+} */
 
 .hero-text {
     display: flex;
@@ -128,13 +127,13 @@ li a:hover {
     left: 10%;
     font-size: 25px;
     color: #fff;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     z-index: 2;
     text-shadow: -0px 4px 6px rgba(0, 0, 0, 1)
 
 }
 .keyWord {
-    color: var(--mid-blue);
+    color: var(--mid-green);
     align-content: center;
 }
 
@@ -166,28 +165,104 @@ li a:hover {
 
 }
 .buttona {
-    width: 150px;
-    margin-left: 50px;
+    width: 100px;
+    margin-left: 5px;
     /* margin-top: 5px; */
     margin-bottom: 10%;
     transition: .5s ease-in-out;
     border: none;
     border-radius: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--dark-green);
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
 }
+
 .aboutstep1 {
-    width: 500px;
+    width: 560px;
     height: 400px;
     background: #fff;
     position: relative;
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/lending.jpg);
+    background-image: url(../src/images/handshake.jpg);
+    /* Handshake */
     background-size: cover;
     background-position: left;
 }
+.aboutstep2 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/SHMCoaching85.jpg);
+    background-size: cover;
+    background-position: right;
+}
+.aboutstep3 {
+    width: 550px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/SHMCoaching57.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.aboutstep4 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/SHMCoaching120.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.aboutstep5 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/SHMCoaching49.jpg);
+    background-size: cover;
+    background-position: right;
+}
+.aboutstep6 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/email.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.aboutstep7 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/yesitsfree.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+
 .about-section {
     display: flex;
     align-items: center;
@@ -214,12 +289,12 @@ li a:hover {
 }
 
 .resume-text {
-    color: var(--dark-blue);
+    color: var(--dark-green);
     font-size: 3vh;
     justify-content: center;
 }
 .resume:hover {
-    background-color: var(--light-blue);
+    background-color: var(--gold);
 }
 
 /*-----------------*/
@@ -315,12 +390,12 @@ li a:hover {
     padding: 15px 0 15px 15px;
     margin-top: 10px;
     margin-left: 6px;
-    color: var(--dark-blue);
+    color: var(--dark-green);
     font-size: 5 rem;
 }
 .content {
     padding: 15px 0 20px 15px;
-    color: var(--dark-blue);
+    color: var(--dark-green);
 }
 .button {
     width: 150px;
@@ -347,14 +422,23 @@ li a:hover {
 }
 
 .button h3 {
-    color: var(--dark-blue);
+    color: var(--dark-green);
     font-weight: bold;
     margin: 4px;
     text-align: center;
     justify-content: center;
 }
+
+.buttona h3 {
+    color: var(--mid-green);
+    font-weight: bold;
+    margin: 5px;
+    text-align: left;
+    justify-content: center;
+}
+
 .buttonhero h3 {
-    color: var(--dark-blue);
+    color: var(--dark-green);
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px;
@@ -362,19 +446,364 @@ li a:hover {
     font-size: large;
     text-align: center;
 }
-
+.buttona:hover {
+    background-color:var(--gold);
+    border: 2px solid var(--dark-green);
+    border-radius: 10px;
+}
 .button:hover {
-    background-color:var(--light-blue);
-    border: 2px solid var(--dark-blue);
+    background-color:var(--gold);
+    border: 2px solid var(--dark-green);
     border-radius: 10px;
 }
 .buttonhero:hover {
-    background-color:var(--light-blue);
-    border: 2px solid var(--dark-blue);
+    background-color:var(--light-green);
+    border: 2px solid var(--dark-green);
     border-radius: 10px;
 
 }
 
+/*-----------------*/
+/*---Principles----*/
+/*-----------------*/
+
+.principle1 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/whynotyou.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.principle2 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/mindset.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.principle3 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/passion1.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.principle4 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/SHMCoaching144.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.principle5 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/highfivecoaching.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.principle6 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/reflection.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.principle7 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/manage.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.principle8 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/evaluate.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.principle9 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/workout.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.principle10 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/SHMCoaching110.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.principle11 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/upsdowns.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.principle12 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/failure.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.principle13 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/1st.png);
+    background-size: cover;
+    background-position: center;
+}
+.principle14 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/margin.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.principle15 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/process.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.principle16 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/10x.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*-----------------*/
+/* philosophy */
+/*-----------------*/
+
+.philosophy1 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/gameplan.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.philosophy2 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/SHMCoaching125.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.philosophy3 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/brain.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.philosophy4 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/clarity3.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.philosophy5 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/process.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.philosophy6 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: cover;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/marketing.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.philosophy7 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/SHMCoaching26.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.philosophy8 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/SHMCoaching66.jpg);
+    background-size: cover;
+    background-position: right;
+}
+.philosophy9 {
+    width: 560px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/SHMCoaching53.jpg);
+    background-size: cover;
+    background-position: right;
+}
+/*-----------------*/
+/*success */
+/*-----------------*/
+
+.success {
+    width: 1000px;
+    height: 600px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(../src/images/Pyramid\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 /*-----------------*/
 /* Sign up */
@@ -389,11 +818,11 @@ li a:hover {
     margin: 5% 35%;
 }
 .contact-icons a {
-    color: var(--mid-blue);
+    color: var(--mid-green);
 
 }
 .contact-icons a:hover {
-    background:var(--light-blue);
+    background:var(--light-green);
     padding: 10px;
     border-radius: 25px;
     box-shadow: 2px 2px 20px rgba(199, 196, 188, 0.781);
@@ -411,7 +840,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: var(--light-blue);
+  background-color: var(--light-green);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -421,7 +850,7 @@ input[type=submit] {
 
 
 input[type=submit]:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--dark-green);
 }
 
 .form-container {
@@ -435,7 +864,7 @@ h3 {
     padding: 15px 0 15px 15px;
     margin-top: 10px;
     margin-left: 28%;
-    color: var(--dark-blue);
+    color: var(--dark-green);
     font-size: 5 rem;
     
 }
@@ -443,7 +872,7 @@ h3a {
     padding: 15px 0 15px 15px;
     margin-top: 10px;
     /* margin-left: 20%; */
-    color: var(--dark-blue);
+    color: var(--dark-green);
     font-size: 10 rem;
     
 }
@@ -472,7 +901,7 @@ h3a {
         font-size: .75rem;
     }
     #name {
-        color: var(--mid-blue);
+        color: var(--mid-green);
         font-size: 17px;
         font-weight: bold;
         text-shadow: 1px 1px 30px white;
@@ -498,19 +927,7 @@ h3a {
         margin: 20px;
         padding: 20px 20px 20px 20px ;
     }
-    .runbuddy-project {
-        width: 500px;
-        height: 300px;
-        background: #fff;
-        position: relative;
-        box-shadow: -15px 7px 30px rgb(0 0 0 / 20%);
-        border-radius: 10px;
-        margin: 50px;
-        /* background-image: url(../src/images/runbuddy.png); */
-        background-size: cover;
-        background-position: right;
-    }
-
+    
     .contact-icons {
         display: flex;
         align-items: center;
@@ -520,7 +937,7 @@ h3a {
         /* margin: 5% 35%; */
     }
     .contact-icons a{
-        color: var(--mid-blue);
+        color: var(--mid-green);
         padding: 10px;
 
     }

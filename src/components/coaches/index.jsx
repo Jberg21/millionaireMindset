@@ -1,4 +1,5 @@
 import React from 'react';
+import Signup from '../signup';
 
 function Coaches() {
     return (
@@ -19,7 +20,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -39,7 +40,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -48,23 +49,23 @@ function Coaches() {
                     </div>
 
                     {/* Coach 3 */}
-                    <div className="coach-item">
+                    {/* <div className="coach-item">
                         <div className="josh">
                             <div className="coaches-text-container">
-                                <h2 className="name">Josh Hanley</h2>
+                                <h2 className="name">Josh Haley</h2>
                                 <div className="content">
                                     <p>
                                     Josh Bio
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* Coach 4 */}
                     <div className="coach-item">
@@ -77,7 +78,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -96,7 +97,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -115,7 +116,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -133,7 +134,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -151,7 +152,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -169,7 +170,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -187,7 +188,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -205,7 +206,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -223,7 +224,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -241,7 +242,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -259,7 +260,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>
@@ -277,7 +278,7 @@ function Coaches() {
                                     </p>
                                 </div>
                                 <button className="button-coaches">
-                                    <a target="blank" href="">
+                                    <a href="/signup">
                                         <h3>Request this Coach</h3>
                                     </a>
                                 </button>

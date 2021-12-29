@@ -1,8 +1,11 @@
 import React from 'react';
-
+import Hero from '../hero';
 function Projects() {
 
     return (
+        <>
+        <Hero />
+
         <section id="projects">
             <div className="project-container">
                 <div className="title-header">Our Services</div>
@@ -136,6 +139,7 @@ function Projects() {
                 </div>
             </div>
         </section>
+        </>
     )
 }
 
