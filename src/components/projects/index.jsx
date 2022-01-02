@@ -8,11 +8,11 @@ function Projects() {
 
         <section id="projects">
             <div className="project-container">
-                <div className="title-header">Our Services</div>
-                <div className="projects">
+                {/* <div className="title-header">Our Services</div>
+                <div className="projects"> */}
 
                     {/* PROJECT 1 */}
-                    <div className="project-item">
+                    {/* <div className="project-item">
                         <div className="coaching">
                             <div className="text-container">
                                 <h2 className="name">Coaching</h2>
@@ -28,10 +28,10 @@ function Projects() {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* PROJECT 2 */}
-                    <div className="project-item">
+                    {/* <div className="project-item">
                         <div className="lending">
                             <div className="text-container">
                                 <h2 className="name">The Millionaire Formula</h2>
@@ -48,10 +48,10 @@ function Projects() {
                                 
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* PROJECT 3 */}
-                    <div className="project-item">
+                    {/* <div className="project-item">
                         <div className="mindset">
                             <div className="text-container">
                                 <h2 className="name">Continuous On-Going Training</h2>
@@ -68,10 +68,10 @@ function Projects() {
                                 
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* PROJECT 4 */}
-                    <div className="project-item">
+                    {/* <div className="project-item">
                         <div className="bestpart">
                             <div className="text-container">
                                 <h2 className="name">Best Part- 100% FREE</h2>
@@ -87,7 +87,7 @@ function Projects() {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* PROJECT 5 */}
                     {/* <div className="project-item">
@@ -136,7 +136,7 @@ function Projects() {
                             </div>
                         </div>
                     </div> */}
-                </div>
+                {/* </div> */}
             </div>
         </section>
         </>

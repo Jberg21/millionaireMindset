@@ -5,7 +5,7 @@
 .coaches-container {
     width: 100%;
     height: auto;
-    padding-top: 75px;
+    padding-top: 50px;
 }
 .coaches-title-header {
     font-size: 4rem;
@@ -46,7 +46,7 @@
     background-size: cover;
     background-position: center;
 }
-.josh {
+.eydn {
     width: 400px;
     height: 600px;
     background: #fff;
@@ -54,11 +54,11 @@
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/Josh\ Haley.jpg);
+    background-image: url(../src/images/Edyn\ Johnson.jpg);
     background-size: cover;
     background-position: center;
 }
-.blair {
+.kyle {
     width: 400px;
     height: 600px;
     background: #fff;
@@ -66,11 +66,11 @@
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/Blair\ Ord.jpg);
+    background-image: url(../src/images/Kyle\ Bevan.jpg);
     background-size: cover;
     background-position: center;
 }
-/* .carli {
+.curt {
     width: 400px;
     height: 600px;
     background: #fff;
@@ -78,10 +78,10 @@
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/Carli\ Anderson.jpg);
+    background-image: url(../src/images/Curt\ Cummings.jpg);
     background-size: cover;
     background-position: center;
-} */
+}
 
 .mike {
     width: 400px;
@@ -107,7 +107,7 @@
     background-size: cover;
     background-position: center;
 }
-.chase {
+.janet {
     width: 400px;
     height: 600px;
     background: #fff;
@@ -115,7 +115,7 @@
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../src/images/Chase\ Waters.jpg);
+    background-image: url(../src/images/Janet\ Davis.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -131,7 +131,7 @@
     background-size: cover;
     background-position: center;
 }
-.susan {
+/* .susan {
     width: 400px;
     height: 600px;
     background: #fff;
@@ -139,10 +139,10 @@
     box-shadow: -15px 7px 30px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    /* background-image: url(../src/images/.png); */
+    background-image: url(../src/images/.png);
     background-size: cover;
     background-position: center;
-}
+} */
 .jason {
     width: 400px;
     height: 600px;
@@ -179,7 +179,7 @@
     background-size: cover;
     background-position: center;
 }
-.lane {
+/* .lane {
     width: 400px;
     height: 600px;
     background: #fff;
@@ -190,8 +190,8 @@
     background-image: url(../src/images/Lane\ Deason.PNG);
     background-size: cover;
     background-position: center;
-}
-.vivian {
+} */
+/* .vivian {
     width: 400px;
     height: 600px;
     background: #fff;
@@ -202,8 +202,8 @@
     background-image: url(../src/images/Vivian\ Villar.jpg);
     background-size: cover;
     background-position: center;
-}
-.santiago {
+} */
+/* .santiago {
     width: 400px;
     height: 600px;
     background: #fff;
@@ -214,41 +214,42 @@
     background-image: url(../src/images/Santiago\ Munera.jpg);
     background-size: cover;
     background-position: center;
-}
+} */
 
 .coaches-text-container {
     position: absolute;
     height: 75px;
     width: 100%;
-    z-index: 2;
     left: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: var(--mid-green);
     overflow: hidden;
     border-radius: 10px;
+    z-index: 0;
 }
 .coaches-text-container:hover {
-    height: 290px;
+    height: auto;
     transition: all 1s ease-in-out;
+    z-index: 0;
 }
 .button-coaches {
     width: 185px;
     margin-left: 100px;
-    margin-top: 50çpx;
+    margin-top: 50px;
     margin-bottom: 20%;
     transition: .5s ease-in-out;
     border: none;
     border-radius: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color:var(--gold);
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
 }
 .button-coaches:hover {
-    background-color:var(--light-green);
-    border: 2px solid var(--dark-green);
+    background-color:var(--gold);
+    border: 2px solid var(--gold);
     border-radius: 10px;
 }
 .button-coaches h3 {
-    color: var(--dark-green);
+    color: var(--black);
     font-weight: bold;
     margin: 5px;
     text-align: center;

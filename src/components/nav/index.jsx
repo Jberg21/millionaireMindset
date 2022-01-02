@@ -9,8 +9,8 @@ function Nav() {
                 <div className="links">
                     
                     <ul>
-                        <a className="navbar-brand" href="#"><img src={logo} alt="logo" id="logo" style={{height: 130}}></img></a>
-                        <li><a href="/projects" id="project">Home</a></li>
+                        <a className="navbar-brand" href="/projects"><img src={logo} alt="logo" id="logo" style={{height: 200}}></img></a>
+                        {/* <li><a href="/projects" id="project">Home</a></li> */}
                         <li><a href="/signup" id="signup">Sign Up</a></li>
                         <li><a href="/about" id="about">About the Program</a></li>
                         <li><a href="/principles" id="principles">16 Core Principles</a></li>
