@@ -459,7 +459,7 @@ li a:hover {
     border-radius: 10px;
 }
 .buttonhero:hover {
-    background-color:var(--light-green);
+    background-color:var(--gold);
     border: 2px solid var(--black);
     border-radius: 10px;
 
@@ -879,7 +879,7 @@ input[type=submit]:hover {
 h3 {
     padding: 15px 0 15px 15px;
     margin-top: 10px;
-    margin-left: 20%;
+    margin-left: 25%;
     color: var(--gold);
     font-size: 5 rem;
     

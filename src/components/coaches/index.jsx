@@ -134,8 +134,8 @@ function Coaches() {
                     </div>
 
 
-                    
-                    
+
+
                     {/* Coach 8 */}
                     {/* <div className="coach-item">
                         <div className="susan">
@@ -182,7 +182,11 @@ function Coaches() {
                                 <h2 className="name">Shane White</h2>
                                 <div className="content">
                                     <p>
-                                        Shane White Bio
+                                        Shane is passionate about helping others achieve their goals in life & business.
+                                        I have been in the lending industry for the past 21+ years and love what I do. As a certified coach I will guide you through the process, help you set clear realistic goals, and systematically share what it takes to build YOUR business. Your success is my success!
+                                        I have been married for 26+ years, father of 2 young adults, one grandson!
+                                        I am confident we can reach the success that we know is there. Let’s make it happen!
+                                        2022 Coach Shane!
                                     </p>
                                 </div>
                                 <button className="button-coaches">
@@ -236,7 +240,7 @@ function Coaches() {
                                 <h2 className="name">Brandon Mecham</h2>
                                 <div className="content">
                                     <p>
-                                    I am passionate about helping others find solutions to their challenges in life & business. I have been in the lending industry for the past 13 years and love what I do. I am father of 3 amazing children, my favorite pastime is fly fishing.
+                                        I am passionate about helping others find solutions to their challenges in life & business. I have been in the lending industry for the past 13 years and love what I do. I am father of 3 amazing children, my favorite pastime is fly fishing.
                                     </p>
                                 </div>
                                 <button className="button-coaches">
@@ -254,7 +258,10 @@ function Coaches() {
                                 <h2 className="name">Kyle Bevan</h2>
                                 <div className="content">
                                     <p>
-                                        Kyle
+                                        If you are ready to make a difference in your marketing and personal development now is the time.  If you are ready to learn to be more productive and hold yourself accountable for what you can accomplish, I can be the person to show you the road.
+                                        I have been in the industry of customer service for over 15 years.  I have been responsible for mentoring and coaching many people to their potential at their jobs.  I have been learning from Real Estate and lending professionals for years.  My dad has been in real estate for 40 years, and at my current job I work with James Roberts that has been in Real Estate and Lending for 20+ years and has done over 2,000 deals.
+                                        I can work with you and show you how to establish good habits and systems. I will be your mentor/coach and help you achieve your goals.
+
                                     </p>
                                 </div>
                                 <button className="button-coaches">
@@ -320,7 +327,7 @@ function Coaches() {
                         </div>
                     </div> */}
 
-                    
+
 
 
 

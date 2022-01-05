@@ -1,8 +1,9 @@
 import React from 'react';
+// import emailjs from 'emailjs-com';
 
-
-function Signup() {
-
+  function Signup() {
+  
+   
     return (
         <section id="signup">
             <div className="contact-container">
@@ -14,7 +15,7 @@ function Signup() {
       
       <input type="text" name="name" placeholder="Name"/>
 
-      <input type="text" name="Phone Number" placeholder="Phone Number" />
+      <input type="text" name="phoneNumber" placeholder="Phone Number" />
   
       <input type="text" name="email" placeholder="email@email.com" />
         
@@ -22,7 +23,8 @@ function Signup() {
       <textarea className="textarea" id="subject" name="subject" placeholder="What State(s) are you licensed in as a Real Estate Agent?"></textarea>
       <textarea className="textarea" id="subject" name="subject" placeholder="Name of Coach that invited you to join the program."></textarea>
         
-      <input type="submit" value="Sign up"/>
+      <input type="submit" value="Sign up"/> 
+      
   
     </form>
   </div>
@@ -37,5 +39,6 @@ function Signup() {
         </section>
     )
 }
+  
 
 export default Signup;
