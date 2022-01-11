@@ -273,7 +273,7 @@ function Coaches() {
                         </div>
                     </div>
                     {/* Coach 13 */}
-                    {/* <div className="coach-item">
+                    <div className="coach-item">
                         <div className="carrie">
                             <div className="coaches-text-container">
                                 <h2 className="name">Carrie Hutchings</h2>
@@ -289,7 +289,7 @@ function Coaches() {
                                 </button>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     {/* Coach 14 */}
                     {/* <div className="coach-item">
                         <div className="vivian">
